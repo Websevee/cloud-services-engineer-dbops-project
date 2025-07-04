@@ -4,7 +4,7 @@ services:
     image: postgres:16
     container_name: postgres
     environment:
-      POSTGRES_USER: postgress
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: pass
       POSTGRES_DB: store_default
     ports:
