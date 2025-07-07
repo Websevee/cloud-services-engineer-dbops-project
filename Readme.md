@@ -1,6 +1,7 @@
 # dbops-project
 Исходный репозиторий для выполнения проекта дисциплины "DBOps"
 
+```sql
 CREATE DATABASE store;
 
 CREATE USER nikolay WITH PASSWORD 'pass';
