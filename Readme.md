@@ -8,6 +8,7 @@ CREATE USER migrations_user WITH PASSWORD 'pass';
 
 GRANT ALL PRIVILEGES ON DATABASE store TO migrations_user;
 GRANT ALL PRIVILEGES ON SCHEMA public TO migrations_user;
+GRANT CREATE ON SCHEMA public TO migrations_user;
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO migrations_user;
 GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO migrations_user;
 
